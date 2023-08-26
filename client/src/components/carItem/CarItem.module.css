@@ -1,0 +1,68 @@
+._wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.name_and_price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+._buyBtn {
+    font-size: 14px;
+    background-color: rgb(247, 242, 242);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: none;
+}
+._buyBtn:hover {
+    color: white;
+    background-color: rgb(180, 12, 96);
+}
+
+._add_to_favr_btn {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._add_to_favr_btn:hover {
+    background-color: rgb(180, 12, 96);
+}
+
+._naming {
+    font-weight: 700;
+    font-size: 20px;
+    color: red;
+}
+
+._location {
+    font-size: 14px;
+    color: black
+}
+
+._in_favr_btn {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(180, 12, 96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

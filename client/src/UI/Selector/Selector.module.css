@@ -1,0 +1,28 @@
+._selector_wrapper {
+    width: 100%;
+    background-color: white;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+._option_inv {
+    display: none;
+}
+
+._helper:hover {
+    cursor: pointer;
+}
+
+._helper {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+._inpt {
+    height: 35px;
+}
